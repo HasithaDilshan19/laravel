@@ -36,3 +36,76 @@
     transform: rotate(360deg);
   }
 }
+
+
+.app {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-section input {
+  padding: 20px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-section button {
+  margin-left: 10px;
+  padding: 10px 45px;
+  border: none;
+  background: #43ea48;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.input-section button:hover {
+  background: #45a049;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  background: white;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-list li button {
+  margin-left: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo-list li button:first-child {
+  background: #2196F3;
+  color: white;
+}
+
+.todo-list li button:last-child {
+  background: #f44336;
+  color: white;
+}
